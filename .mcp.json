@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tesla-inventory": {
+      "command": "uv",
+      "args": [
+        "--directory", "/Users/wqeq/Desktop/project/TeslaWebscrape",
+        "run", "python", "-m", "tesla_mcp.server"
+      ]
+    }
+  }
+}
