@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-PROJECT_DIR="/Users/wqeq/Desktop/project/TeslaWebscrape"
+PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKILL_DIR="$PROJECT_DIR/.claude/skills/tesla"
 
 # Load environment variables
